@@ -4,12 +4,17 @@ Analysis of correct and incorrect Ap Chagi executions using Graph Convolutional 
 
 ## Pipeline
 
+## Pipeline
+
 1. Pose keypoint extraction using MediaPipe Pose Landmarker
 2. Keypoint preprocessing
-3. Movement feature extraction
-4. Spatio-temporal graph construction
-5. GCN training and evaluation
-6. Comparison with Random Forest
+3. GCN pipeline:
+   - Spatio-temporal graph construction
+   - GCN training and evaluation
+4. Random Forest pipeline:
+   - Movement feature extraction
+   - Random Forest training and evaluation
+5. Comparison of GCN and Random Forest results
 
 ## Dataset
 
