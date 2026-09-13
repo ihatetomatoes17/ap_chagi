@@ -1,7 +1,6 @@
-# Ap Chagi Movement Classification
+# Ap Chagi
 
-Bachelor thesis project for classification of correct and incorrect
-Ap Chagi executions using a Graph Convolutional Network (GCN).
+Analysis of correct and incorrect Ap Chagi executions using Graph Convolutional Networks (GCN), with comparison to a Random Forest model.
 
 ## Pipeline
 
