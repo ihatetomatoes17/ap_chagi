@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# PyCharm
+.idea/
+
+# Dataset videos
+dataset/
+
+# Generated/processed data
+processed/
+
+# MediaPipe model
+models/*.task
+
+# OS files
+.DS_Store
+Thumbs.db
