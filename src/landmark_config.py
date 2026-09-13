@@ -25,6 +25,6 @@ TRAJECTORY_LANDMARKS = {
     "right_ankle": 28
 }
 
-#za racunanje visine grudi
+# Landmarks used for chest reference calculation.
 LEFT_SHOULDER_ID = 11
 RIGHT_SHOULDER_ID = 12

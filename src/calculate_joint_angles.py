@@ -9,7 +9,7 @@ import numpy as np
 
 from file_utils import (
     find_class_files,
-    load_keypoints_file
+    load_cleaned_keypoints_file
 )
 from landmark_config import AP_CHAGI_LANDMARKS
 
@@ -1119,7 +1119,7 @@ def save_features(
             right_ankle_change_at_max_extension
         ),
 
-        # Legacy/debug feature.
+        # Additional diagnostic feature.
         max_knee_height_frame=np.int32(
             max_knee_height_frame
         ),
@@ -1413,8 +1413,9 @@ def process_video_features(
     (
         keypoints,
         pose_detected,
+        _,
         fps
-    ) = load_keypoints_file(
+    ) = load_cleaned_keypoints_file(
         input_path
     )
 

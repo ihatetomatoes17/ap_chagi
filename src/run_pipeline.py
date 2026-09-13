@@ -17,7 +17,7 @@ PIPELINE_STEPS = [
         "preprocess_keypoints.py"
     ),
     (
-        "Extracting movement features",
+        "Extracting movement features for Random Forest",
         "calculate_joint_angles.py"
     ),
     (
@@ -25,11 +25,11 @@ PIPELINE_STEPS = [
         "build_dataset.py"
     ),
     (
-        "Building spatio-temporal graphs",
+        "Building spatio-temporal graphs for GCN",
         "graph_builder.py"
     ),
     (
-        "Training and evaluating models with 5-fold cross-validation",
+        "Training and evaluating models GCN and Random Forest with 5-fold cross-validation",
         "train_cross_validation.py"
     ),
 ]

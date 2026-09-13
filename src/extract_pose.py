@@ -185,7 +185,7 @@ def process_video(video_path):
 
 if __name__ == "__main__":
     test_video_path = (
-        "../dataset/ap_chagi/correct/ap_chagi_c001.mp4"
+        "../dataset/ap_chagi/correct/ap_chagi_p001_c001.mp4"
     )
 
     process_video(
